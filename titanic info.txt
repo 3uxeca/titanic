@@ -1,0 +1,48 @@
+- PassengerId : 승객 번호
+
+- Survived : 생존여부(1: 생존, 0 : 사망)
+
+- Pclass : 승선권 클래스(1 : 1st, 2 : 2nd ,3 : 3rd)
+
+- Name : 승객 이름
+
+- Sex : 승객 성별
+
+- Age : 승객 나이 
+
+- SibSp : 동반한 형제자매, 배우자 수
+
+- Patch : 동반한 부모, 자식 수
+
+- Ticket : 티켓의 고유 넘버
+
+- Fare 티켓의 요금
+
+- Cabin : 객실 번호
+
+- Embarked : 승선한 항구명(C : Cherbourg, Q : Queenstown, S : Southampton)
+
+
+   PassengerId  Survived  Pclass  ...     Fare Cabin  Embarked
+0            1         0       3  ...   7.2500   NaN         S
+1            2         1       1  ...  71.2833   C85         C
+2            3         1       3  ...   7.9250   NaN         S
+3            4         1       1  ...  53.1000  C123         S
+4            5         0       3  ...   8.0500   NaN         S
+
+[5 rows x 12 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 12 columns):
+PassengerId    891 non-null int64
+Survived       891 non-null int64
+Pclass         891 non-null int64
+Name           891 non-null object
+Sex            891 non-null object
+Age            714 non-null float64
+SibSp          891 non-null int64
+Parch          891 non-null int64
+Ticket         891 non-null object
+Fare           891 non-null float64
+Cabin          204 non-null object
+Embarked       889 non-null object
